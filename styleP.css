@@ -1,0 +1,154 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #28292b;
+    color: #fff;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+.name {
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.nav__links li {
+    margin: 0 15px;
+}
+
+.nav__links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.nav__links a:hover {
+    color: #f7f7f7;
+}
+
+
+.container-portifolio {
+    background: #28292b;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    padding-left: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 60px;
+    justify-items: center;
+    align-items: center;
+}
+
+.cartao {
+    width: 320px;
+    min-height: 101%;
+    background-color: #17181C;
+    box-shadow: 0px 2px 18px #0a0b0fcc;
+    border-radius: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-self: center;
+    align-items: center;
+    border: 1px solid white;
+}
+
+.topcartao {
+    padding: 20px;
+}   
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.midia_cartao1 {
+    background: url(/AI\ Generator\ Image.png) center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.bottomcartao {
+    padding: 20px;
+}
+
+.texto_cartao {
+    font-size: 16px;
+    color: #9c9c9c;
+    width: 12%;
+}
+
+.action_cartao {
+    margin-top: 20px;
+}
+
+.BTgithub {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.BTgithub:hover {
+    background-color: #0056b3;
+}
+
+.midia_cartao2 {
+    background: url(imgs/bikiniBottom.png) center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.midia_cartao3 {
+    background: url(imgs/foleFollow.png) center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.midia_cartao4 {
+    background: url(imgs/jokenpoPython.png) center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.midia_cartao5 {
+    background: url(imgs/maquinaDeBebidas.png) center/cover;
+    height: 200px;
+    width: 100%;
+}
+
+.midia_cartao6 {
+    background: url(imgs/smartSinal.png) center/cover;
+    height: 200px;
+    width: 100%;
+}
